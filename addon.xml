@@ -1,0 +1,16 @@
+<addon id="repository.folpi.cinema"
+       name="Folpi Cinema Repository"
+       version="1.0.0"
+       provider-name="folpij">
+    <extension point="xbmc.addon.repository"
+               name="Folpi Cinema Repository">
+        <info compressed="false">http://yourwebsite.com/repo/</info>
+        <checksum>http://yourwebsite.com/repo/checksum.md5</checksum>
+        <datadir zip="true">http://yourwebsite.com/repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Folpi Cinema Repository for Kodi</summary>
+        <description lang="en">A repository for Kodi add-ons maintained by folpij.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
